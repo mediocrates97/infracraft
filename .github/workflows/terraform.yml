@@ -27,7 +27,7 @@ jobs:
       uses: hashicorp/setup-terraform@v2
       
     - name: Change to Terraform directory
-      run: cd terraform
+      run: cd infracraft/terraform
       working-directory: ./infracraft/terraform
         
     - name: Terraform Init
