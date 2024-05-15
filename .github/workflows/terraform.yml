@@ -28,6 +28,7 @@ jobs:
       
     - name: Change to Terraform directory
       run: cd terraform
+      working-directory: ./terraform
         
     - name: Terraform Init
       run: terraform init
